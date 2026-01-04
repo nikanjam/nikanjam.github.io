@@ -149,22 +149,6 @@ fonts:
   mono: "Geist Mono"  # or "Fira Code", etc.
 ```
 
-### Canvas Settings
-
-Customize the interactive photo canvas:
-
-```yaml
-canvas:
-  halftoneSize: 0.0001
-  contrast: 1
-  accentColor: "#CECFC7"
-  mouseRadius: 100
-  repulsionStrength: 1.5
-  returnSpeed: 0.6
-  accentProbability: 0.2
-  sizeVariation: 0.1
-```
-
 ## Project Structure
 
 ```
@@ -214,16 +198,6 @@ Edit the `colors` section in `resume.yaml`. All colors use hex format (`#RRGGBB`
 Update the `fonts` section in `resume.yaml`. Use any Google Font name. Common choices:
 - Sans-serif: `"Inter"`, `"Roboto"`, `"Open Sans"`, `"Geist"`
 - Monospace: `"Fira Code"`, `"Source Code Pro"`, `"Geist Mono"`
-
-### Photo Canvas
-
-The interactive photo canvas creates a halftone effect that responds to mouse movement. Adjust the `canvas` settings in `resume.yaml` to change the behavior:
-- `halftoneSize` - Size of halftone dots (smaller = more detail)
-- `contrast` - Image contrast
-- `accentColor` - Color for accent dots
-- `mouseRadius` - Radius of mouse interaction
-- `repulsionStrength` - How strongly dots are repelled
-- `returnSpeed` - How quickly dots return to position
 
 ## Requirements
 
