@@ -206,7 +206,7 @@ Update the `fonts` section in `resume.yaml`. Use any Google Font name. Common ch
 
 ## License
 
-MIT License - see LICENSE file for details
+[MIT License](LICENSE) © 2026 Mohamadreza Najarbashi
 
 ## Contributing
 
