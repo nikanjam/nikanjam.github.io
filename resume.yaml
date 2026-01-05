@@ -69,12 +69,27 @@ experience:
       - "Assisted with server administration tasks to maintain uptime and reliability."
 
 projects:
-  # No specific project information was provided on the resume image.
-  # You may want to add projects in the future.
+  - title: "Mail Transfer"
+    period: "Jan 2024 – Present"
+    description: |
+      This project involves creating a simple and effective email transfer system using open-source tools.
+    points:
+      - "Developed a tool for secure and reliable email transfer."
+      - "Implemented authentication mechanisms and logging features."
+      - "Integrated with common email servers for smooth communication."
+    span: 1
+    link: 
+      text: "View on GitHub"
+      url: "https://github.com/nikanjam/mail_transfer"
 
 volunteering:
-  # No specific volunteering information was provided on the resume image.
-  # You may want to add volunteering roles if applicable.
+  - title: "Open Source Contributor"
+    organization: "GitHub"
+    period: "Jan 2024 – Present"
+    description: "Contributing to open-source projects by fixing bugs, writing documentation, and adding new features."
+    link:
+      text: "View Profile"
+      url: "https://github.com/nikanjam"
 
 skills:
   technologies:
