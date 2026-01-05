@@ -1,11 +1,12 @@
 personal:
   name: "Amir Nikanjam"
   title: "Junior Solutions Architect | Linux, Automation & SRE"
-  photo: "photo.png"
+  photo: "photo.png"  # Path to your photo in public/ directory
+  
   links:
     github:
-      username: "amin-nikanjam"
-      url: "https://github.com/amin-nikanjam"
+      username: "nikanjam"
+      url: "https://github.com/nikanjam"
     linkedin:
       username: "Amir Nikanjam"
       url: "https://linkedin.com/in/amir-nikanjam"
@@ -19,31 +20,33 @@ summary: |
   I am a Linux-focused Site Reliability Engineer with strong experience in automation, monitoring, and infrastructure operations. I work hands-on with production systems, designing reliable workflows [...]
 
 colors:
-  background: "#0A0A0F"
-  foreground: "#E1E1E8"
-  card: "#16161D"
-  cardForeground: "#E1E1E8"
-  popover: "#16161D"
-  popoverForeground: "#E1E1E8"
-  primary: "#5FB0B7"
-  primaryForeground: "#E1E1E8"
-  secondary: "#1F1F28"
-  secondaryForeground: "#A0A0AA"
-  muted: "#1F1F28"
-  mutedForeground: "#A0A0AA"
-  accent: "#3E6F8A"
-  accentForeground: "#E1E1E8"
-  border: "#4C7A91"
-  input: "#16161D"
-  ring: "#4C7A91"
-  chart1: "#5FB0B7"
-  chart2: "#E1E1E8"
-  chart3: "#3E6F8A"
-  chart4: "#7FDFFF"
-  chart5: "#A0C8D8"
+  background: "#020202"
+  foreground: "#CECFC7"
+  card: "#1a1a1a"
+  cardForeground: "#CECFC7"
+  popover: "#1a1a1a"
+  popoverForeground: "#CECFC7"
+  primary: "#3E6259"
+  primaryForeground: "#CECFC7"
+  secondary: "#2a2a2a"
+  secondaryForeground: "#CECFC7"
+  muted: "#2a2a2a"
+  mutedForeground: "#9a9a9a"
+  accent: "#3E6259"
+  accentForeground: "#CECFC7"
+  destructive: "#dc2626"
+  destructiveForeground: "#CECFC7"
+  border: "#3E6259"
+  input: "#2a2a2a"
+  ring: "#3E6259"
+  chart1: "#3E6259"
+  chart2: "#CECFC7"
+  chart3: "#5a7a72"
+  chart4: "#8a9a94"
+  chart5: "#a0b0aa"
 
 fonts:
-  sans: "Geist"
+  sans: "Geist"  # Google Font name
   mono: "Geist Mono"
 
 experience:
@@ -66,35 +69,18 @@ experience:
       - "Assisted with server administration tasks to maintain uptime and reliability."
 
 projects:
-  - title: "SilentBugsInTensorFlowKeras"
-    period: "2025"
+  - title: "Mail Transfer"
+    period: "Jan 2024 – Present"
     description: |
-      Replication package for the empirical study of silent bugs in deep learning frameworks (TensorFlow & Keras), with datasets and scripts to analyze bug characteristics. :contentReference[oaicite:1]{index=1}
+      This project involves creating a simple and effective email transfer system using open-source tools.
     points:
-      - "Contains labeled datasets and analysis scripts for silent bug research."
-      - "Useful for reproducible research and benchmarking bug detection."
-    link:
+      - "Developed a tool for secure and reliable email transfer."
+      - "Implemented authentication mechanisms and logging features."
+      - "Integrated with common email servers for smooth communication."
+    span: 1
+    link: 
       text: "View on GitHub"
-      url: "https://github.com/amin-nikanjam/SilentBugsInTensorFlowKeras"
-  - title: "ICSE2022-SilentBugs"
-    period: "2022"
-    description: |
-      Supporting repository for ICSE 2022 research on silent bugs in machine learning frameworks, focusing on reproducibility and code artifacts. :contentReference[oaicite:2]{index=2}
-    points:
-      - "Artifacts and scripts used in the ICSE 2022 submission."
-    link:
-      text: "View on GitHub"
-      url: "https://github.com/amin-nikanjam/ICSE2022-SilentBugs"
-  - title: "amin-nikanjam.github.io"
-    period: "2025"
-    description: |
-      Personal website repository hosting the academic/portfolio page, based on GitHub Pages. :contentReference[oaicite:3]{index=3}
-    points:
-      - "Static site content for personal branding and resume."
-      - "Built with GitHub Pages."
-    link:
-      text: "Visit Website"
-      url: "https://github.com/amin-nikanjam/amin-nikanjam.github.io"
+      url: "https://github.com/nikanjam/mail_transfer"
 
 volunteering:
   - title: "Open Source Contributor"
@@ -103,7 +89,7 @@ volunteering:
     description: "Contributing to open-source projects by fixing bugs, writing documentation, and adding new features."
     link:
       text: "View Profile"
-      url: "https://github.com/amin-nikanjam"
+      url: "https://github.com/nikanjam"
 
 skills:
   technologies:
