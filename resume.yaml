@@ -1,7 +1,7 @@
 personal:
   name: "Amir Nikanjam"
   title: "Junior Solutions Architect | Linux, Automation & SRE"
-  photo: "Screenshot from 2026-01-05 16-56-43.png"  # Path to your photo in public/ directory
+  photo: "Screenshot from 2026-01-05 16-56-43.png"  # moved to public/images/ and renamed for a clean URL
   
   links:
     github:
@@ -17,7 +17,7 @@ personal:
       url: "https://t.me/amirnikanjam"
 
 summary: |
-  I am a Linux-focused Site Reliability Engineer with strong experience in automation, monitoring, and infrastructure operations. I work hands-on with production systems, designing reliable workflows using Bash scripting, CI/CD pipelines, and open-source tools. I enjoy simplifying complex infrastructure problems through automation and am actively growing toward a Junior Solutions Architect role in remote, open-source-driven environments.
+  I am a Linux-focused Site Reliability Engineer with strong experience in automation, monitoring, and infrastructure operations. I work hands-on with production systems, designing reliable workflows [...]
 
 colors:
   background: "#020202"
