@@ -42,6 +42,7 @@ npm install
 Run the setup script to copy template files and create initial resume.yaml:
 
 ```bash
+ll
 ./setup.sh
 ```
 

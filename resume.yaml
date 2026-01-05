@@ -1,0 +1,108 @@
+personal:
+  name: "Amir Nikanjam"
+  title: "Junior Solutions Architect | Linux, Automation & SRE"
+  photo: "photo.png"  # Path to your photo in public/ directory
+  
+  links:
+    github:
+      username: "nikanjam"
+      url: "https://github.com/nikanjam"
+    linkedin:
+      username: "Amir Nikanjam"
+      url: "https://linkedin.com/in/amir-nikanjam"
+    email:
+      address: "amirnikanjam3000@gmail.com"
+    telegram:
+      username: "@amirnikanjam"
+      url: "https://t.me/amirnikanjam"
+
+summary: |
+  I am a Linux-focused Site Reliability Engineer with strong experience in automation, monitoring, and infrastructure operations. I work hands-on with production systems, designing reliable workflows using Bash scripting, CI/CD pipelines, and open-source tools. I enjoy simplifying complex infrastructure problems through automation and am actively growing toward a Junior Solutions Architect role in remote, open-source-driven environments.
+
+colors:
+  background: "#020202"
+  foreground: "#CECFC7"
+  card: "#1a1a1a"
+  cardForeground: "#CECFC7"
+  popover: "#1a1a1a"
+  popoverForeground: "#CECFC7"
+  primary: "#3E6259"
+  primaryForeground: "#CECFC7"
+  secondary: "#2a2a2a"
+  secondaryForeground: "#CECFC7"
+  muted: "#2a2a2a"
+  mutedForeground: "#9a9a9a"
+  accent: "#3E6259"
+  accentForeground: "#CECFC7"
+  destructive: "#dc2626"
+  destructiveForeground: "#CECFC7"
+  border: "#3E6259"
+  input: "#2a2a2a"
+  ring: "#3E6259"
+  chart1: "#3E6259"
+  chart2: "#CECFC7"
+  chart3: "#5a7a72"
+  chart4: "#8a9a94"
+  chart5: "#a0b0aa"
+
+fonts:
+  sans: "Geist"  # Google Font name
+  mono: "Geist Mono"
+
+experience:
+  - title: "Site Reliability Engineer (SRE)"
+    company: "Limoohost"
+    period: "Dec 2024 – Present"
+    responsibilities:
+      - "Automated infrastructure operations using 50+ Bash scripts (deployment, backup, monitoring, user management)."
+      - "Implemented Prometheus and Grafana for system and service monitoring."
+      - "Improved performance and reliability using NFS shared storage."
+      - "Managed Linux systems and secured servers with iptables, UFW, and CSF."
+  
+  - title: "Technical Support Specialist"
+    company: "Limoohost"
+    period: "Mar 2024 – Dec 2024"
+    responsibilities:
+      - "Provided Linux hosting support and server troubleshooting."
+      - "Assisted with server administration to maintain uptime and service stability."
+      - "Troubleshot server, email, domain, and service-related issues for hosting customers."
+      - "Assisted with server administration tasks to maintain uptime and reliability."
+
+projects:
+  # No specific project information was provided on the resume image.
+  # You may want to add projects in the future.
+
+volunteering:
+  # No specific volunteering information was provided on the resume image.
+  # You may want to add volunteering roles if applicable.
+
+skills:
+  technologies:
+    - "Linux & Systems"
+    - "Automation & SRE"
+    - "Monitoring & Observability"
+    - "CI/CD & Containers"
+    - "Security & Networking"
+  
+  platforms:
+    - "Bash"
+    - "Prometheus"
+    - "Grafana"
+    - "NFS"
+    - "iptables"
+    - "UFW"
+    - "CSF"
+  
+  soft:
+    - "Problem Solving"
+    - "Communication"
+    - "Teamwork"
+
+education:
+  - degree: "Bachelor's degree, Computer Software"
+    institution: "Montazeri University"
+    period: "2022 – 2025"
+
+languages:
+  - "Persian"
+  - "English"
