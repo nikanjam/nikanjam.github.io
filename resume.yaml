@@ -1,6 +1,6 @@
 personal:
   name: "Amir Nikanjam"
-  title: " Solutions Architect | Linux, Automation & SRE | Web Hosting Specialist"
+  title: " Solutions Architect | Linux, Automation and SRE | Web Hosting Specialist"
   photo: "photo.png"  # Path to your photo in public/ directory
   
   links:
@@ -17,7 +17,7 @@ personal:
       url: "https://t.me/amirnikanjam"
 
 summary: |
-  I am a Linux-focused Site Reliability Engineer with strong experience in automation, monitoring, and infrastructure operations. I work hands-on with production systems, designing reliable workflows [...]
+  I am a Linux-focused Site Reliability Engineer and Web Hosting Specialist with strong experience in automation, monitoring, and infrastructure operations. I work hands-on with production systems, designing reliable workflows using Bash scripting, CI/CD pipelines, and open-source tools. I enjoy simplifying complex infrastructure problems through automation and am actively growing toward a Solutions Architect role in remote, open-source-driven environments.
 
 colors:
   background: "#0a0a0a"
@@ -72,7 +72,7 @@ projects:
   - title: "Mail Transfer"
     period: "Jan 2024 – Present"
     description: |
-      This project involves creating a simple and effective email transfer system using open-source tools.
+      A Python script that automates the transfer of email accounts and data from backup files to cPanel and DirectAdmin servers. It extracts emails, configurations, and attachments, ensuring a smooth and reliable migration process.
     points:
       - "Developed a tool for secure and reliable email transfer."
       - "Implemented authentication mechanisms and logging features."
@@ -81,6 +81,71 @@ projects:
     link: 
       text: "View on GitHub"
       url: "https://github.com/nikanjam/mail_transfer"
+  
+  - title: "Domain Checker"
+    period: "Aug 2025"
+    description: |
+      A Python script to verify if domains are correctly pointing to the server for cPanel and DirectAdmin. It detects CDN usage and checks SSL for validation, providing a comprehensive status report.
+    points:
+      - "Automated domain validation and DNS checking."
+      - "CDN detection and SSL certificate validation."
+      - "Comprehensive status reporting for multiple domains."
+    span: 1
+    link:
+      text: "View on GitHub"
+      url: "https://github.com/nikanjam/domain_checker"
+  
+  - title: "LiteSpeed Exporter"
+    period: "Dec 2025"
+    description: |
+      A LiteSpeed exporter for Prometheus that runs on the same machine as the target LiteSpeed server and exports its metrics from automatically-generated .rtreport files.
+    points:
+      - "Prometheus metrics exporter for LiteSpeed web server."
+      - "Automatic metric extraction from .rtreport files."
+      - "Real-time monitoring and observability integration."
+    span: 1
+    link:
+      text: "View on GitHub"
+      url: "https://github.com/nikanjam/litespeed_exporter"
+  
+  - title: "Verdaccio with Nginx Docker"
+    period: "Dec 2025"
+    description: |
+      Private npm registry using Verdaccio and Nginx. Only admin can publish packages; authenticated users can install. Self-registration disabled. Dockerized with persistent storage for secure, production-ready deployment.
+    points:
+      - "Private npm registry with access control."
+      - "Dockerized setup with persistent storage."
+      - "Nginx reverse proxy configuration for security."
+    span: 1
+    link:
+      text: "View on GitHub"
+      url: "https://github.com/nikanjam/verdaccio-with-nginx-docker"
+  
+  - title: "k6 Stress Test"
+    period: "Dec 2025"
+    description: |
+      Load testing and stress testing tool using k6 for performance evaluation and system capacity planning.
+    points:
+      - "Performance testing and load simulation."
+      - "System capacity planning and optimization."
+      - "Automated stress testing workflows."
+    span: 1
+    link:
+      text: "View on GitHub"
+      url: "https://github.com/nikanjam/k6-stressTest"
+  
+  - title: "SFTP Server"
+    period: "Aug 2025"
+    description: |
+      Secure FTP server implementation with enhanced security features and user management capabilities.
+    points:
+      - "Secure file transfer protocol implementation."
+      - "User authentication and access control."
+      - "Enhanced security configurations."
+    span: 1
+    link:
+      text: "View on GitHub"
+      url: "https://github.com/nikanjam/sftp"
 
 volunteering:
   - title: "Open Source Contributor"
@@ -93,11 +158,11 @@ volunteering:
 
 skills:
   technologies:
-    - "Linux & Systems"
-    - "Automation & SRE"
-    - "Monitoring & Observability"
-    - "CI/CD & Containers"
-    - "Security & Networking"
+    - "Linux and Systems"
+    - "Automation and SRE"
+    - "Monitoring and Observability"
+    - "CI/CD and Containers"
+    - "Security and Networking"
   
   platforms:
     - "Bash"
